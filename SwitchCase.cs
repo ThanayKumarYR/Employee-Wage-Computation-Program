@@ -28,14 +28,13 @@ namespace Employee_Wage_Computation
                     partTimeWages.ptWages();
                     break;
                 case 4:
-
                     mountlyWage m = new mountlyWage(n, p);
                     break;
                 case 5:
-                    coinditionalWage c = new coinditionalWage(p, n);
+                    conditionalWage c = new conditionalWage(p, n);
                     break;
                 default:
-                    Console.WriteLine("pls select the correct one ");
+                    Console.WriteLine("please select the correct one ");
                     break;
             }
         }
